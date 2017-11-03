@@ -5,9 +5,7 @@ client.on('ready', () => {
     console.log('Par Siedger#0130');
 });
 
-bot.on('ready', () => {
-  bot.user.setGame('Test')
-})
+bot.user.setPresence({ status: 'online', game: { name: 'Test' } });
 
 client.on('message' , (message) => {
 	if (message.content == '!scrim') {
