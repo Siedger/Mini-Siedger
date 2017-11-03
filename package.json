@@ -1,13 +1,13 @@
 {
   "name": "Mini Siedger",
   "version": "0.1",
-  "description": "Bot Discord pour le serveur La Côtelette Improbable.",
+  "description": "Bot Discord pour le serveur La Cotelette Improbable.",
   "main": "bot.js",
   "author": "Siedger",
   "scripts": {
     "start": "node bot.js"
+  },
   "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
+    "discord.js": "11.1.0"
   }
 }
