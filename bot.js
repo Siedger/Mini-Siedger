@@ -2,10 +2,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    console.log('Par Siedger#0130');
+    console.log('Par Siedger');
 });
-
-bot.user.setPresence({ status: 'online', game: { name: 'Test' } });
 
 client.on('message' , (message) => {
 	if (message.content == '!scrim') {
