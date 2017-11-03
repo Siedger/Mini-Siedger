@@ -3,7 +3,6 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('Par Siedger');
-    client.user.setGame('Test')
     client.user.setPresence({ game: { name: 'embêter Siedger', type: 0 } });
 
 });
