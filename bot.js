@@ -3,6 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('Par Siedger');
+    client.user.setGame('Test')
 });
 
 client.on('message' , (message) => {
