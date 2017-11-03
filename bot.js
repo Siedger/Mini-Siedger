@@ -3,8 +3,11 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('Par Siedger#0130');
-    client.user.setGame('Pierre Papier Ciseaux')
 });
+
+bot.on('ready', () => {
+  bot.user.setGame('GAME HERE')
+})
 
 client.on('message' , (message) => {
 	if (message.content == '!scrim') {
