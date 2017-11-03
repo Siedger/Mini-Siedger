@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('Par Siedger#0130');
-    bot.user.setGame('Pierre Papier Ciseaux')
+    client.user.setGame('Pierre Papier Ciseaux')
 });
 
 client.on('message' , (message) => {
