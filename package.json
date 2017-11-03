@@ -1,7 +1,7 @@
 {
-  "name": "discord-bot-infy",
-  "description": "Testing",
-  "version": "0.0.0",
+  "name": "mini-siedger",
+  "description": "Discord de la taverne La Cotelette Improbable",
+  "version": "0.0.1",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
