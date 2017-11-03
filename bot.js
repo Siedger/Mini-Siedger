@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    console.log('Fixed by RedCoder4');
+    console.log('Par Siedger#0130');
 });
 
 client.on('message' , (message) => {
