@@ -6,6 +6,8 @@ client.on('ready', () => {
     client.user.setGame('Test')
 });
 
+client.user.setPresence({ game: { name: 'some name', type: 0 } });
+
 client.on('message' , (message) => {
 	if (message.content == '!scrim') {
 			message.channel.send("Horarios Scrim: De Viernes a Domingos (De 4 a 8)", {
